@@ -1,7 +1,7 @@
-package com.natamus.breezespawn.config;
+package com.serilum.breezespawn.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.breezespawn.util.Reference;
+import com.serilum.breezespawn.util.Reference;
 
 import java.util.Arrays;
 import java.util.HashMap;
