@@ -1,7 +1,7 @@
-package com.natamus.breezespawn.fabric.config;
+package com.serilum.breezespawn.fabric.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.breezespawn.util.Reference;
+import com.serilum.breezespawn.util.Reference;
 import com.terraformersmc.modmenu.api.ConfigScreenFactory;
 import com.terraformersmc.modmenu.api.ModMenuApi;
 

@@ -1,9 +1,9 @@
-package com.natamus.breezespawn;
+package com.serilum.breezespawn;
 
 import com.natamus.collective.check.RegisterMod;
 import com.natamus.collective.check.ShouldLoadCheck;
-import com.natamus.breezespawn.neoforge.config.IntegrateNeoForgeConfig;
-import com.natamus.breezespawn.util.Reference;
+import com.serilum.breezespawn.neoforge.config.IntegrateNeoForgeConfig;
+import com.serilum.breezespawn.util.Reference;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.ModLoadingContext;
 import net.neoforged.fml.common.Mod;

@@ -1,6 +1,6 @@
-package com.natamus.breezespawn;
+package com.serilum.breezespawn;
 
-import com.natamus.breezespawn.config.ConfigHandler;
+import com.serilum.breezespawn.config.ConfigHandler;
 import com.natamus.collective.objects.SAMObject;
 import net.minecraft.world.entity.EntityType;
 
