@@ -1,7 +1,7 @@
-package com.natamus.breezespawn.forge.config;
+package com.serilum.breezespawn.forge.config;
 
 import com.natamus.collective.config.DuskConfig;
-import com.natamus.breezespawn.util.Reference;
+import com.serilum.breezespawn.util.Reference;
 import net.minecraftforge.client.ConfigScreenHandler;
 import net.minecraftforge.fml.ModLoadingContext;
 
