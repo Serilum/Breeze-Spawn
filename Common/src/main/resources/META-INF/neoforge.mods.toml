@@ -6,7 +6,7 @@ iconFile="icon.png"
 
 [[mods]]
 modId="breezespawn"
-version="1.3"
+version="1.4"
 displayName="Breeze Spawn"
 displayURL="https://serilum.com/mod/breeze-spawn"
 authors="Serilum"
@@ -22,7 +22,7 @@ If you would like to contribute too, check out https://serilum.com/donate Apprec
 [[dependencies.breezespawn]]
     modId="collective"
     type="required"
-    versionRange="[8.57,)"
+    versionRange="[8.59,)"
     ordering="NONE"
     side="BOTH"
 
