@@ -16,6 +16,8 @@ public class ModCommon {
 
 	private static void load() {
 		samObject = new SAMObject(EntityType.BLAZE, EntityType.BREEZE, null, ConfigHandler.chanceBlazeIsBreeze, false, false, false, false, false, Integer.MAX_VALUE);
+		samObject.dimensionIds = ConfigHandler.dimensionsToSpawnIn;
+		samObject.biomeIds = ConfigHandler.biomesToSpawnIn;
 
 		ConfigCallback.CONFIG_CHANGED.register((String modid) -> {
 			if (!modid.equals(Reference.MOD_ID)) {
@@ -23,6 +25,8 @@ public class ModCommon {
 			}
 
 			samObject.changeChance = ConfigHandler.chanceBlazeIsBreeze;
+			samObject.dimensionIds = ConfigHandler.dimensionsToSpawnIn;
+			samObject.biomeIds = ConfigHandler.biomesToSpawnIn;
 		});
 	}
 }
